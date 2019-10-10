@@ -1,0 +1,58 @@
+@import "colors";
+
+// General stuff
+
+body {
+    background: $primary-color;
+    background: rgb(213,226,188);
+    background: linear-gradient(49deg, rgba(213,226,188,1) 68%, rgba(211,192,210,1) 100%);    height: 100vh;
+    color: $text-color;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+// Project pictures
+.projects-container {
+    display: flex;
+    justify-content: center;
+    img {
+        max-width: 150px;
+        max-height: 150px;
+    }    
+}
+
+.projects {
+    padding: 25px;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+// Project description
+.description-info {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.projects-description, .description-info {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-description {
+    height: 600px;
+    width: 900px;
+    background: #f5f5f5;
+    color: $text-color;
+    border-radius: 75px;
+    border: 1px solid black;
+}
+
+

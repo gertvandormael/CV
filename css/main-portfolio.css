@@ -1,23 +1,70 @@
-img {
-  width: 150px;
-  height: 150px;
-}
+.header {
+  display: flex;
+  justify-content: space-between; }
+  .header h1 {
+    background: -webkit-linear-gradient(#160F29, #368F8B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .header h2 {
+    background: -webkit-linear-gradient(#368F8B, #160F29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.fab {
+  padding: 5px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#160F29, #368F8B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+a:hover {
+  color: red; }
+
+body {
+  background: #FFF7F7;
+  background: #d5e2bc;
+  background: linear-gradient(49deg, #d5e2bc 68%, #d3c0d2 100%);
+  height: 100vh;
+  color: #160F29;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center; }
 
 .projects-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-}
+  justify-content: center; }
+  .projects-container img {
+    max-width: 150px;
+    max-height: 150px; }
 
 .projects {
-  padding: 25px;
-}
+  padding: 25px; }
 
 .active {
-  display: block;
-}
+  display: block; }
 
 .hidden {
-  display: none;
-}
+  display: none; }
+
+.description-info {
+  margin-top: -15px;
+  margin-bottom: 10px; }
+
+.projects-description, .description-info {
+  display: flex;
+  justify-content: center; }
+
+.projects-description {
+  height: 600px;
+  width: 900px;
+  background: #f5f5f5;
+  color: #160F29;
+  border-radius: 75px;
+  border: 1px solid black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /*# sourceMappingURL=main-portfolio.css.map */

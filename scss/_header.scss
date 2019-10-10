@@ -1,0 +1,32 @@
+@import "colors";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        background: -webkit-linear-gradient(#160F29, #368F8B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;    
+    } 
+    
+    h2 {
+        background: -webkit-linear-gradient(#368F8B, #160F29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+    }
+}
+
+.fab {
+    padding: 5px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#160F29, #368F8B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+    color: red;
+
+}
