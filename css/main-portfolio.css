@@ -1,0 +1,23 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects {
+  padding: 25px;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main-portfolio.css.map */
