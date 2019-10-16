@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
     padding: 20px
 }
 .content {
-    padding: 10px 10px 0px 10px;
+    padding: 25px 10px 0px 10px;
 }
 
 .sidebar h1, .sidebar h2, .sidebar h3 {
@@ -53,6 +53,7 @@ p, ul {
 .profile-pic {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 img {
@@ -106,12 +107,8 @@ img {
     padding-left: 10px;
 }
 
-.options {
-    display: flex;
-}
-
-.transportation-icon {
-    /* margin-left: 15px; */
+.icon {
+    width: 35px;
 }
 
 /* Work & projects */
@@ -230,6 +227,25 @@ ul {
     }  
 
     .work-info, .education-info {
-        width: 500px;
+        width: 450px;
     }
 }
+
+@media print {
+    .column {
+        padding-top: 50px;
+    }
+
+    .wrapper {
+        display: flex;
+        height: 100vh;
+    }
+ 
+    .sidebar {
+        width: 350px;
+    }
+ 
+    .work-info {
+        width: 410px;
+    }
+ }

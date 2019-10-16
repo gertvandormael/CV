@@ -24,8 +24,11 @@ body {
 .projects {
     display: flex;
     align-items: center;
-    padding: 25px;
+    padding: 25px 0px 25px 0px;
     height: 100px;
+    &:hover {
+        
+    }
 }
 
 .active {
@@ -37,7 +40,7 @@ body {
 }
 
 .focus {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 // Project description
