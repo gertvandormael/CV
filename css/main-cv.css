@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
     padding: 20px
 }
 .content {
-    padding: 25px 10px 0px 10px;
+    padding: 30px 10px 0px 10px;
 }
 
 .sidebar h1, .sidebar h2, .sidebar h3 {
@@ -53,12 +53,14 @@ p, ul {
 .profile-pic {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    max-width: 240px;
+    max-height: 240px;
+    border-radius: 5px;
 }
 
 /* Skills */
@@ -233,19 +235,29 @@ ul {
 
 @media print {
     .column {
-        padding-top: 50px;
+    }
+
+    .content {
+        margin-left: 10px;
     }
 
     .wrapper {
         display: flex;
         height: 100vh;
+        background: white;
     }
  
     .sidebar {
-        width: 350px;
+        width: 335px;
+        color: white;
     }
  
     .work-info {
         width: 410px;
+    }
+
+
+    .sidebar h1, .sidebar h2, .sidebar h3, .icon, .contact p {
+        color: white;
     }
  }

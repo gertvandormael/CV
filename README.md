@@ -1,5 +1,3 @@
-# Portfolio and cv
+# CV
 
-[my cv](https://gertvandormael.github.io/portfolio-and-cv/cv.html)
-
-[portfolio](https://gertvandormael.github.io/portfolio-and-cv/portfolio.html) Still under construction
+[my CV](https://gertvandormael.github.io/portfolio-and-cv/cv.html)
