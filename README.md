@@ -1,3 +1,3 @@
 # CV
 
-[my CV](https://gertvandormael.github.io/portfolio-and-cv/cv.html)
+[my CV](https://gertvandormael.github.io/CV/cv.html)
